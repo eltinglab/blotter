@@ -1,15 +1,15 @@
 ---
 layout: member
-title: Trevor Bedford
+title: Mary Elting
 position: Principal investigator
-handle: trvrb
-email: trevor@bedford.io
-twitter: trvrb
-github: trvrb
-scholar: RIi-1pAAAAAJ
-calendar: https://calendar.google.com/calendar/embed?src=trevor%40bedford.io
-image: /images/team/trevor-bedford.jpg
-cv: /pdfs/team/trevor-bedford-cv.pdf
+handle: mwelting
+email: mary_elting@ncsu.edu
+twitter: mwelting
+github: mwelting
+scholar: 
+calendar: 
+image: 
+cv: 
 ---
 
 I'm an Assistant Member at the [Fred Hutch](http://www.fredhutch.org/) in the [Vaccine and Infectious Disease Division](https://www.fhcrc.org/en/labs/vaccine-and-infectious-disease.html) and the [Computational Biology Program](http://labs.fhcrc.org/compbio/). I'm also an Affiliate Assistant Professor in the [Department of Epidemiology](http://depts.washington.edu/epidem/welcome) at the [University of Washington School of Public Health](http://sph.washington.edu/). I study the dynamics of virus populations.  How do strains spread through the world?  How do strains evolve in response to immune pressure?  And ultimately, what makes a strain successful?
