@@ -6,7 +6,9 @@ layout: default
 	<div class="col-md-12">
 		<div class="media">
 			{% if page.image %}
-			<img class="pull-left pad-right media-object" src="{{ page.image }}">
+			<div class="col-md-3">
+				<img class="pull-left pad-right media-object" src="{{ page.image }}">
+			</div>
 			{% endif %}
 			<div class="media-body titlebox">
 				<div class="title media-heading">

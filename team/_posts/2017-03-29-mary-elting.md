@@ -8,7 +8,7 @@ twitter: mwelting
 github: mwelting
 scholar: 
 calendar: 
-image: 
+image: /images/team/mary-elting.png
 cv: 
 ---
 

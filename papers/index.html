@@ -5,6 +5,8 @@ categories:
  - papers
 ---
 
+<i>Click on each paper for abstract, and for link to full text.</i>
+<br><br>
 {% for paper in site.categories.papers %}
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-4 paperbox">
@@ -14,7 +16,7 @@ categories:
   				</a>
  			 	<div class="media-body">
     				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.ref }}</p>
+    				<a href="{{ paper.url }}" class="note">{{ paper.ref }}</a>
   				</div>
 			</div>
 			<div class="bigspacer"></div>
