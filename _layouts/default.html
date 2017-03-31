@@ -13,7 +13,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/eltinglabfavicon.png"/>	
 
 	<!-- Typekit -->
 	<script>
@@ -59,39 +59,41 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					{% if page.categories.first != 'home' %}					
-					<object class="logo navbar-brand" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">bedford lab</a>
+					{% if page.categories.first != 'home' %}
+					<a href="/">					
+						<img class="logo navbar-brand" src="/images/EltingLabLogo.png" data-pin-nopin="true"> </img>
+					</a>
+					<a class="navbar-brand" href="/">Elting Lab</a>
 					{% endif %}
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-element">
 					<ul class="nav navbar-nav navbar-right">
-						{% if page.categories.first == 'blog' %}
+						{% if page.categories.first == 'research' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/blog/">blog</a>
-						</li>
+						<a href="/projects/">research</a></li>
 						{% if page.categories.first == 'papers' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
 						<a href="/papers/">papers</a>
-						</li>
-						{% if page.categories.first == 'projects' %}
-						<li class="active">
-						{% else %}
-						<li>
-						{% endif %}
-						<a href="/projects/">projects</a></li>	  
+						</li>  
 						{% if page.categories.first == 'team' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/team/">team</a></li>	  	  
+						<a href="/team/">team</a></li>
+						{% if page.categories.first == 'blog' %}
+						<li class="active">
+						{% else %}
+						<li>
+						{% endif %}
+						<a href="/blog/">blog</a>
+						</li>	  	  
 					</ul>
 				</div>
 			</div>
