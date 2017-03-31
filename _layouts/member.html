@@ -116,7 +116,7 @@ layout: default
 		<div class="spacer"></div>
 		{% for paper in site.categories.papers %}
 		{% if paper.authors contains searchstring %}
-		<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+		<p><a href="{{ paper.url }}" class="note">{{ paper.title }}. {{ paper.ref }}</a>
 		{% endif %}
 		{% endfor %}
 		{% endif %}
@@ -158,7 +158,7 @@ layout: default
 		<div class="spacer"></div>
 		{% for post in site.categories.blog %}
 		{% if member.title == post.author %}
-		<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
+		<p><a href="{{ post.url }}" class="note">{{ post.title }}</a>
 		{% endif %}
 		{% endfor %}
 		{% endif %}

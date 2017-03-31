@@ -1,8 +1,8 @@
 ---
 layout: paper
-title: Rapid Membrane Fusion of Individual Virus Particles with Supported Lipid Bilayers
+title: "Rapid Membrane Fusion of Individual Virus Particles with Supported Lipid Bilayers"
 image: 
-authors: Laura Wessels, Mary Williard Elting, Dominic Scimeca, Keith Weninger
+authors: "Wessels L, Elting MW, Scimeca D, Weninger KR"
 year: 2007
 ref: Wessels et al. 2007. Biophys J.
 journal: "Biophys J 93: 526-538"
