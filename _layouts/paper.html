@@ -64,6 +64,17 @@ layout: default
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+			{% if page.preprint %}
+			<div class="smallhead">
+				Preprint
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="{{ page.preprint }}">link</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
 			{% if page.github %}
 			<div class="smallhead">
 				GitHub

@@ -1,12 +1,12 @@
 ---
 layout: paper
 title: "Detailed tuning of structure and intramolecular communication are dispensable for processive motion of myosin VI"
-image: /images/papers/elting-processivity.png
+image: ./images/papers/elting-processivity.png
 authors: "Elting MW, Bryant Z, Liao J, Spudich JA"
 year: 2011
-ref: Elting et al. Biophys J. 2011. 
+ref: Elting et al. Biophys J. 2011.
 journal: "Biophys J 100:2 430-439"
-pdf: 
+pdf:
 doi: 10.1016/j.bpj.2010.11.045
 ---
 

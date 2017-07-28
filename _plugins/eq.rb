@@ -13,7 +13,7 @@ module Jekyll
 		
 			parsed = Liquid::Template.parse(@markup).render context
 
-			katexsrc = open("./js/katex.min.js").read
+			katexsrc = open("/js/katex.min.js").read
 			@katex = ExecJS.compile(katexsrc)
 
             style = "text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;"

@@ -13,7 +13,7 @@ module Jekyll
 
 			parsed = Liquid::Template.parse(@markup).render context
 			
-			katexsrc = open("./js/katex.min.js").read
+			katexsrc = open("/js/katex.min.js").read
 			@katex = ExecJS.compile(katexsrc)
 			return eqn_to_html(parsed)
 
