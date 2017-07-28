@@ -4,8 +4,8 @@ title: "Engineered myosin VI motors reveal minimal structural determinants of di
 image: /images/papers/liao-myosin-vi.png
 authors: "Liao J, Elting MW, Delp SL, Spudich JA, Bryant Z"
 year: 2009
-ref: Liao et al. J of Mol Biol. 2009. 
-journal: "J of Mol Biol 392:4: 862-867"
+ref: Liao et al. J Mol Biol. 2009. 
+journal: "J Mol Biol 392:4: 862-867"
 pdf: 
 doi: 10.1016/j.jmb.2009.07.046
 ---
