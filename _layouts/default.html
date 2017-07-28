@@ -6,14 +6,17 @@
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+
 
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
-    <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet" media="screen">
+
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/eltinglabfavicon.png"/>
+	<link rel="shortcut icon" href="{{ site.baseurl }}/images/eltinglabfavicon.png"/>
 
 	<!-- Typekit -->
 	<script>
@@ -26,16 +29,19 @@
 	  })(document);
 	</script>
 
+
 	<!-- jQuery -->
-	<script src="/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+
 
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="{{ site.baseurl }}/js/transition.js"></script>
+	<script src="{{ site.baseurl }}/js/collapse.js"></script>
 
 </head>
 
 <body>
+
 
 	<div id="header">
 		<nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -48,8 +54,8 @@
 						<span class="icon-bar"></span>
 					</button>
 					{% if page.categories.first != 'home' %}
-					<a href="/">
-						<img class="logo navbar-brand" src="/images/EltingLabLogo.png" data-pin-nopin="true"> </img>
+					<a href="{{ site.baseurl }}/">
+						<img class="logo navbar-brand" src="{{ site.baseurl }}/images/EltingLabLogo.png" data-pin-nopin="true"> </img>
 					</a>
 					<a class="navbar-brand" href="/">Elting Lab</a>
 					{% endif %}
@@ -62,28 +68,28 @@
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/page/research/">research</a></li>
+						<a href="{{ site.baseurl }}/page/research/">research</a></li>
 
 						{% if page.categories.first == 'papers' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/papers/">publications</a></li>
+						<a href="{{ site.baseurl }}/papers/">publications</a></li>
 
 						{% if page.categories.first == 'team' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/team/">team</a></li>
+						<a href="{{ site.baseurl }}/team/">team</a></li>
 
 						{% if page.categories.first == 'blog' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/blog/">blog</a></li>
+						<a href="{{ site.baseurl }}/blog/">blog</a></li>
 
 					</ul>
 				</div>
@@ -109,13 +115,13 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
         <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='https://sites.google.com/a/ncsu.edu/biophysics/'>Biological Physics</a></li>
-          <li><a class="smallhead" href='http://physics.ncsu.edu'>Department of Physics</a></li>
-          <li><a class="smallhead" href='http://www.ncsu.edu'> NC State University</a></li>
+          <li><a class="smallhead" href="https://sites.google.com/a/ncsu.edu/biophysics/">Biological Physics</a></li>
+          <li><a class="smallhead" href="http://physics.ncsu.edu">Department of Physics</a></li>
+          <li><a class="smallhead" href="http://www.ncsu.edu"> NC State University</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/page/siteinfo/'>Site info</a></li>
-          <li><a class="smallhead" style="color:green" href='/page/join/'>Join</a></li>
+          <li><a class="smallhead" href="{{ site.baseurl }}/page/siteinfo/">Site info</a></li>
+          <li><a class="smallhead" style="color:green" href="{{ site.baseurl }}/page/join/">Join</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>

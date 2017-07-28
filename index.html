@@ -8,7 +8,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<!--<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>-->
-		<img class="img-responsive center" src="/images/scalingCartoon.png">
+		<img class="img-responsive center" src="{{ site.baseurl }}/images/scalingCartoon.png">
 		<div class="bigtitle logobox">
 			Elting Lab
 		</div>
@@ -20,9 +20,9 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="smallhead">
-			The Elting Lab combines approaches from physics, biology, and engineering to ask how biological molecules self-assemble into cellular-scale machinery that transduces force and performs mechanical functions. 
+			The Elting Lab combines approaches from physics, biology, and engineering to ask how biological molecules self-assemble into cellular-scale machinery that transduces force and performs mechanical functions.
 		</div>
-	</div>	
+	</div>
 </div>
 
 <div class="bigspacer"></div>
@@ -31,21 +31,21 @@ categories:
 <div class="row">
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/blog/">Blog posts</a>
+			<a class="off" href="{{ site.baseurl }}/blog/">Blog posts</a>
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">
 			{% for post in site.categories.blog limit:6 %}
-			
+
 				{% for member in site.categories.team %}
 					{% if member.title == post.author %}
 						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
+				{% endfor %}
+
 				<div class="note">
 					<i class="fa fa-comment fa-fw"></i>
-					<a class="off" href="{{ post.url }}">
+					<a class="off" href="{{ site.baseurl }}{{ post.url }}">
 					{{ post.title }}
 					</a>
 				</div>
@@ -54,27 +54,27 @@ categories:
 					Posted
 					{{ post.date | date: "%-d %b %Y" }}
 					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-					{% endif %}						
+					by <a class="off" href="{{ site.baseurl }}{{ author.url }}">{{ author.handle }}</a>
+					{% endif %}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/papers/">
+			<a class="off" href="{{ site.baseurl }}/papers/">
 				Publications
 			</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox">		
+		<div class="feedbox">
 			{% for paper in site.categories.papers limit:5 %}
 				<div class="note">
 					<i class="fa fa-file-text fa-fw"></i>
-					<a class="off" href="{{ paper.url }}">
+					<a class="off" href="{{ site.baseurl }}{{ paper.url }}">
 					{{ paper.title }}
 					</a>
 				</div>
@@ -83,11 +83,11 @@ categories:
 					Posted
 					{{ paper.date | date: "%-d %b %Y" }}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 	<!-- <div class="col-md-4">
 		<div class="head">
@@ -96,13 +96,13 @@ categories:
 		<div class="bigspacer"></div>
 		<div class="feedbox">
 			{% for post in site.categories.news limit:6 %}
-			
+
 				{% for member in site.categories.team %}
 					{% if member.title == post.author %}
 						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
+				{% endfor %}
+
 				<div class="note">
 					<i class="fa fa-rss fa-fw"></i>
 					<a class="off" href="{{ post.url }}">
@@ -115,13 +115,13 @@ categories:
 					{{ post.date | date: "%-d %b %Y" }}
 					{% if author %}
 					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-					{% endif %}						
+					{% endif %}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div> -->
 </div>
 
@@ -130,7 +130,7 @@ categories:
 <!--
 <div class="row">
 	<div class="col-md-12">
-		<div class="head">		
+		<div class="head">
 			Misc
 		</div>
 		<div class="spacer"></div>
@@ -148,10 +148,10 @@ categories:
 				{% endfor %}
 				<li class="footernav">
 					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
-				</li>			
+				</li>
 			</ul>
 		</div>
-		<div class="spacer"></div>		
+		<div class="spacer"></div>
 	</div>
 </div>
 -->
