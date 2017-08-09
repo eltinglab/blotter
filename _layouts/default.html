@@ -57,13 +57,13 @@
 					<a href="{{ site.baseurl }}/">
 						<img class="logo navbar-brand" src="{{ site.baseurl }}/images/EltingLabLogo.png" data-pin-nopin="true"> </img>
 					</a>
-					<a class="navbar-brand" href="{{ site.baseurl }}">Elting Lab</a>
+					<a class="navbar-brand" href="{{ site.baseurl }}/">Elting Lab</a>
 					{% endif %}
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-element">
 					<ul class="nav navbar-nav navbar-right">
 
-						{% if page.categories.first == 'research' %}
+						{% if page.title == 'Research' %}
 						<li class="active">
 						{% else %}
 						<li>
@@ -90,6 +90,13 @@
 						<li>
 						{% endif %}
 						<a href="{{ site.baseurl }}/blog/">blog</a></li>
+
+						{% if page.title == 'Join' %}
+						<li class="active">
+						{% else %}
+						<li>
+						{% endif %}
+						<a style="color:green" href="{{ site.baseurl }}/page/join/">join</a></li>
 
 					</ul>
 				</div>
@@ -121,7 +128,6 @@
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li><a class="smallhead" href="{{ site.baseurl }}/page/siteinfo/">Site info</a></li>
-          <li><a class="smallhead" style="color:green" href="{{ site.baseurl }}/page/join/">Join</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
