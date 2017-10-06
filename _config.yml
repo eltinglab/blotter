@@ -1,7 +1,7 @@
 name: Elting Lab Research
 description: Science updates from the Elting Lab at NCSU
-url: http://www4.ncsu.edu
-baseurl: /~mmwillia
+url: http://physics.ncsu.edu
+baseurl: /eltinglab
 
 markdown: redcarpet
 permalink: /:categories/:title/
