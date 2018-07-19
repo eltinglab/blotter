@@ -1,12 +1,12 @@
 ---
 layout: member
 title: Mary Elting
-position: Principal investigator
+position: Principal Investigator
 handle: mwelting
-email: mary_elting@ncsu.edu
+email: mary.elting@ncsu.edu
 twitter: mwelting
 github: mwelting
-scholar:
+scholar: https://scholar.google.com/citations?user=LRu7dfwAAAAJ&hl=en&authuser=1&oi=ao
 calendar:
 image: /images/team/mary-elting.png
 cv:

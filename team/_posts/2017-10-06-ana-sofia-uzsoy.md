@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ana Sofia Uzsoy
-position: Undergraduate Research Assistant
+position: Undergraduate Researcher
 handle: amuzsoy
 email: amuzsoy@ncsu.edu
 twitter:
