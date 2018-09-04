@@ -8,7 +8,7 @@ twitter:
 github:
 scholar:
 calendar:
-image: /images/team/noun_886252_0A5D19.png
+image: /images/team/PZ_labPhoto.JPG
 cv:
 ---
 
