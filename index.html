@@ -73,11 +73,11 @@ categories:
 
   <div class="col-md-4">
     <div class="head">
-      <a class="off" href="{{ site.baseurl }}/blog/">Blog posts</a>
+      <a class="off" href="{{ site.baseurl }}/news/">news posts</a>
     </div>
     <div class="bigspacer"></div>
     <div class="feedbox">
-      {% for post in site.categories.blog limit:6 %}
+      {% for post in site.categories.news limit:6 %}
 
         {% for member in site.categories.team %}
           {% if member.title == post.author %}
