@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Parsa Zareiesfandabadi
-position: Undergraduate Researcher
+position: Postbac Researcher
 handle: parsazareies
 email: pzareie@ncsu.edu
 twitter:
@@ -12,4 +12,4 @@ image: /images/team/PZ_labPhoto.JPG
 cv:
 ---
 
-Parsa Zareiesfandabadi, an NCSU physics major, joined the Elting Lab in the summer of 2018.
+Parsa Zareiesfandabadi, an NCSU physics major, joined the Elting Lab in the summer of 2018. After graduating in May 2020, he has continued in a full time postbac research position in the lab.
